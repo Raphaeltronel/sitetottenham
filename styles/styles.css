@@ -1,0 +1,63 @@
+@import "banner.css";
+@import "buttons.css";
+@import "cards.css";
+@import "container.css";
+@import "footer.css";
+@import "imagesdrapeau.css";
+@import "actus.css";
+
+h1{
+    color: white;
+display: flex;
+justify-content: center;
+
+}
+
+h2{
+    color: white;
+}
+
+h3{
+    text-align: center;
+    text-decoration: solid;
+    color: black;
+}
+
+
+ 
+button:hover{
+    background-color: rgb(13, 29, 69);
+    color: grey;
+    transition: 0.5s;
+}
+
+a{
+    color: white;
+    align-content: center;
+}
+
+li{
+    text-align: left;
+    width: 70px;
+    height: 55px;
+}
+.btn-msg{
+    padding: 10px;
+    border-radius: 5px;
+    color: black;
+    background-color: white;
+}
+.btn-msg:hover{
+background-color: rgb(13, 29, 69);
+color: white;
+transition: 0.5s;
+
+}
+
+body{
+    margin: 0;
+    background-color: rgb(13, 29, 69) ;
+    text-align: center;
+    justify-content: center;
+    
+}
